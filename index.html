@@ -2,14 +2,16 @@
 <html lang="en-us">
 
 <head>
-	<meta charset="UTF-8">
-    <title>Guess the dj</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Guess the DJ</title>
     
 </head>
 
 <body>
 
-	<div>
+	<div class="mx-auto" style="width: 200px;">
         <h1>The DJ challenge</h1>
 
         <!-- Mostrarle al usuario las reglas (escoge una letra y tienes 9 oportunidades, si le atinas ganas, si no le atinas pierdes) -->
@@ -17,14 +19,11 @@
         <p>Press any key to start</p>
         
         <!-- Mostrarle al usuario cuantas rondas tiene ganadas y cuantas tiene perdidas -->
-        <p id="Wins">Wins: 0</p>
-        <p id="Losses">Losses: 0</p>
-        <p id="Current-word"><b></b></p>
+        <p id="Wins">0 DJ's guessed</p>
+        <p id="Losses">Reguetton score (this is bad and shameful):</p>
+        <p id="Current-word"></p><b></b>
         <p id="Guesses-left">You have 10 more guesses</p>
         <p id="Userchoice-text">Your used letters so far are:</p>
-
-		
-		<p id="computerchoice-text"></p>
 
     </div>
 
