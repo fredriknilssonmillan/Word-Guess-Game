@@ -1,0 +1,10 @@
+Tener una lista de posibles palabras o frases que puede escoger la computadora
+La computadora deberá escoger una frase
+Cuando arranque la página, se le deberá mostrar al usuario con guiones bajos las letras que componen la frase
+Los espacios no se deberán tomar como guines bajos, esos sí deberían estar prellenados con la barra espaciadora.
+El usuario deberá teclear una letra
+Si esa letra se encuentra dentro de las palabras (sin importar si es mayúscula o minúscula), debería sustituir el espacio del guión bajo (acá tal vez aplica charAt)
+Si no se encuentra, entonces debería enlistar esa letra en la lista de letras usadas y debería disminuir en uno el marcador de letras restantes
+Cuando el marcador de letras restantes llega a cero debería decirle al cuate que perdió
+Si logra rellenar el 100% de la palabara, entonces le debería decir que ganó y sumarle un "win"
+Estaría chingón si cuando gana pasa algo, como cambiar una imagen o poner una rola de ese artista en particular (puede ser un video en youtube... más impacto y menos memoria).
