@@ -1,7 +1,7 @@
 // Creates an array that lists out all of the options (all the DJ's).
 
 var computerChoices = ["Eric Prydz", "Adam Beyer", "Tiesto", "Armin van Buuren", "Carl Cox", "Kungs", "Above Beyond", "Nora en Pure", "Camelphat", "Steve Aoki", "Jamie Jones",
-    "Charlotte de Witte", "Paul Oakenfold", "Daft Punk"];
+    "Charlotte de Witte", "Paul Oakenfold", "Daft Punk", "Sebastian Ingrosso", "Paul van Dyk", "Steve Angello", "Alan Walker"];
 
 var computerGuess;
 var lines = [];
