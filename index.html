@@ -5,28 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <title>Guess the DJ</title>
 
-    
+
 </head>
 
 <body>
 
-	<div class="mx-auto" style="width: 200px;">
-        <h1>The DJ challenge</h1>
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 class="text-white mx-auto">The DJ challenge</h1>
+    </nav>
 
-        <!-- Mostrarle al usuario las reglas (escoge una letra y tienes 9 oportunidades, si le atinas ganas, si no le atinas pierdes) -->
-        <p id="directions-text">Guess the name of the DJ, you have 10 attempts</p>
-        <p>Press any key to start</p>
-        
-        <!-- Mostrarle al usuario cuantas rondas tiene ganadas y cuantas tiene perdidas -->
-        <p id="Wins">0 DJ's guessed</p>
-        <p id="Losses">Reguetton score (this is bad and shameful):</p>
-        <p id="Current-word" class="space"></p><b></b>
-        <p id="Guesses-left">You have 10 more guesses</p>
-        <p id="Userchoice-text">Your used letters so far are:</p>
+    <br><br>
 
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                <div class="card border-primary">
+                    <img src="./images/party.jpg" class="card-img-top" alt="party pic">
+                    <div class="card-body">
+                        <h5 class="card-title" id="directions-text">Guess the name of the DJ, you have 10
+                            attempts</h5>
+                        <p class="card-text space text-center" id="Current-word"></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" id="Guesses-left"></li>
+                        <li class="list-group-item" id="Userchoice-text"></li>
+                        <li class="list-group-item" id="Wins"></li>
+                        <li class="list-group-item" id="Losses"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
     </div>
 
 
