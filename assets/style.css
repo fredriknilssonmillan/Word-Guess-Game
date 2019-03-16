@@ -1,3 +1,9 @@
 .space {
     letter-spacing: 3px;
   }
+
+  body {
+    background-image: url("../images/background1.png");
+    background-size: 30%;
+    background-repeat: repeat;
+}
